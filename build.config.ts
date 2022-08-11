@@ -1,3 +1,4 @@
+// eslint-disable-next-line node/no-unpublished-import
 import {defineBuildConfig} from 'unbuild';
 
 export default defineBuildConfig({
