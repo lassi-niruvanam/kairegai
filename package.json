@@ -1,6 +1,6 @@
 {
   "name": "kairegai",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -13,7 +13,7 @@
     "fix": "gts fix",
     "compile": "unbuild",
     "watch": "unbuild --stub",
-    "test": "jest"
+    "test": "jest --coverage --collectCoverageFrom=\"./src/**/*.ts\""
   },
   "engines": {
     "node": ">=16.0.0"

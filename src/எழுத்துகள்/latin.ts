@@ -58,7 +58,7 @@ const இலாத்தின்_எழுத்துகள்: {[key: string]
   base16: '0123456789abcdef',
   base16upper: '0123456789ABCDEF',
   base32: 'abcdefghijklmnopqrstuvwxyz234567',
-  base32z: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567',
+  base32z: 'ybndrfg8ejkmcpqxot1uwisza345h769',
   base32hex: '0123456789abcdefghijklmnopqrstuv',
   base32pad: 'abcdefghijklmnopqrstuvwxyz234567=',
   base32upper: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567',
