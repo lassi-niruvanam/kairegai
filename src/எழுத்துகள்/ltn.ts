@@ -78,7 +78,7 @@ const இலாத்தின்_எழுத்துகள்: {[key: string]
     'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=',
 };
 
-export const latin = Object.fromEntries(
+export const ltn = Object.fromEntries(
   Object.entries(இலாத்தின்_அடைப்புகள்).map(([அடைப்பு, மாற்றி]) => {
     return [
       மாற்றி.name,
