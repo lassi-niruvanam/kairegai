@@ -7,7 +7,12 @@ export const கைரேகைை_பகுப்பாய்வு = ({
 }: {
   கைரேகை: string;
 }): {எழுத்து: string; குறிமுறை: string} => {
-  const மூனோட்டு = [...கைரேகை][0];
+  let மூனோட்டு = [...கைரேகை][0];
+
+  // https://github.com/multiformats/multibase#multibase-table -ஐ பாரு
+  if (மூனோட்டு === "1" || மூனோட்டு === "Q") {
+    மூனோட்டு = "z"
+  }
 
   for (const எ of எழுத்துகள்) {
     const மாற்றி_தகவல்கள் = Object.entries(எழுத்துகள்_அடைப்புகள்[எ]).find(
