@@ -15,6 +15,9 @@
     "watch": "unbuild --stub",
     "test": "jest"
   },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "exports": {
     ".": {
       "require": "./dist/index.cjs",

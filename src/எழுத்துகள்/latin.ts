@@ -71,18 +71,22 @@ const இலாத்தின்_எழுத்துகள்: {[key: string]
   base58btc: '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz',
   base58flickr: '123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ',
   base64: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/',
-  base64pad: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=',
+  base64pad:
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=',
   base64url: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_',
-  base64urlpad: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=',
+  base64urlpad:
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=',
 };
 
 export const latin = Object.fromEntries(
-  Object.entries(இலாத்தின்_அடைப்புகள்).map(
-    ([அடைப்பு, மாற்றி]) => {
-      return [மாற்றி.name, {
+  Object.entries(இலாத்தின்_அடைப்புகள்).map(([அடைப்பு, மாற்றி]) => {
+    return [
+      மாற்றி.name,
+      {
         முன்னோட்டு: மாற்றி.prefix,
-        எழுத்துருகள்: இலாத்தின்_எழுத்துகள்[அடைப்பு as keyof typeof இலாத்தின்_அடைப்புகள்]
-      }]
-    }
-  )
-)
+        எழுத்துருகள்:
+          இலாத்தின்_எழுத்துகள்[அடைப்பு as keyof typeof இலாத்தின்_அடைப்புகள்],
+      },
+    ];
+  })
+);

@@ -1,9 +1,9 @@
-import * as த from "./த.json"
-import * as ខ្មែរ from "./ខ្មែរ.json"
-import * as दे from "./दे.json"
-import { latin } from "./latin";
+import * as த from './த.json';
+import * as ខ្មែរ from './ខ្មែរ.json';
+import * as दे from './दे.json';
+import {latin} from './latin';
 
-export { இலாத்தின்_அடைப்புகள் } from "./latin";
+export {இலாத்தின்_அடைப்புகள்} from './latin';
 
 export interface அடைப்பு_தகவல்கள் {
   முன்னோட்டு: string;
@@ -12,11 +12,11 @@ export interface அடைப்பு_தகவல்கள் {
 
 export const எழுத்துகள்_அடைப்புகள்: {
   [key: string]: {
-    [key: string]: அடைப்பு_தகவல்கள்
-  }
+    [key: string]: அடைப்பு_தகவல்கள்;
+  };
 } = {
   दे,
   த,
   ខ្មែរ,
-  latin
+  latin,
 };
