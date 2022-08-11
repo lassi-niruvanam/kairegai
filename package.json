@@ -1,6 +1,6 @@
 {
   "name": "kairegai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -18,6 +18,10 @@
   "engines": {
     "node": ">=16.0.0"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "exports": {
     ".": {
       "require": "./dist/index.cjs",
