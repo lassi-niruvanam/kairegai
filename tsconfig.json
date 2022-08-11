@@ -9,6 +9,7 @@
       "webpack-env",
       "jest"
     ],
+    "resolveJsonModule": true
   },
   "include": [
     "src/**/*.ts",
