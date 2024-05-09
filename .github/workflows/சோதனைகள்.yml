@@ -1,11 +1,11 @@
-name: கிளி சோதனைகள்
+name: கைரேகைச் சோதனைகள்
 on:
   push:
     branches:
-      - மத்திய
+      - மூலம்
   pull_request:
     branches:
-      - மத்திய
+      - மூலம்
 
 jobs:
   test-ipa-nodejs:
