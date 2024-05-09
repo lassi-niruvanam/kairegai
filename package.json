@@ -38,7 +38,7 @@
     "jest": "^28.1.3",
     "ts-jest": "^28.0.7",
     "typescript": "^4.0.3",
-    "unbuild": "^0.8.8"
+    "unbuild": "^0.9.0"
   },
   "dependencies": {
     "multiformats": "^9.6.4"
