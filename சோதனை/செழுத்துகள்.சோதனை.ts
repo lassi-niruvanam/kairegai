@@ -4,7 +4,7 @@ import { expect } from "aegir/chai";
 it('எல்லோருக்கும் முன்னோட்டு, எழுத்துருகள் இருக்கு', () => {
   for (const தகவல்கள் of Object.values(எழுத்துகள்_அடைப்புகள்)) {
     for (const அடைப்பு_தகவல்கள் of Object.values(தகவல்கள்)) {
-      expect(Object.keys(அடைப்பு_தகவல்கள்)).to.equal(
+      expect(Object.keys(அடைப்பு_தகவல்கள்)).to.deep.equal(
         ['முன்னோட்டு', 'எழுத்துருகள்']
       );
     }

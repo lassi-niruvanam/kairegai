@@ -1,6 +1,6 @@
-import * as த from './த.json' with { type: 'json' };
-import * as ខ្មែរ from './ខ្មែរ.json' with { type: 'json' };
-import * as दे from './देव.json' with { type: 'json' };
+import த from './த.json' with { type: 'json' };
+import ខ្មែរ from './ខ្មែរ.json' with { type: 'json' };
+import दे from './देव.json' with { type: 'json' };
 import { ltn } from './ltn.js';
 
 export {இலாத்தின்_அடைப்புகள்} from './ltn.js';
