@@ -1,18 +1,38 @@
 {
-  "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
-    "rootDir": ".",
-    "outDir": "build",
-    "lib": ["esnext"],
-    "types": [
-      "node",
-      "webpack-env",
-      "jest"
-    ],
-    "resolveJsonModule": true
+    "allowJs": false,
+    "baseUrl": ".",
+    "declaration": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "paths": {
+      "@/*": ["மூலம்/*"]
+    },
+    "outDir": "./விநியோகம்",
+    "sourceMap": true,
+    "strict": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "target": "esnext",
+    "useUnknownInCatchVariables": false,
+
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+
+    "plugins": [
+      { "transform": "typescript-transform-paths" },
+      { "transform": "typescript-transform-paths", "afterDeclarations": true }
+    ]
   },
-  "include": [
-    "src/**/*.ts",
-    "test/**/*.ts"
-  ]
+  "include": ["மூலம்", "சோதனை", "@வகைகள்"]
 }
