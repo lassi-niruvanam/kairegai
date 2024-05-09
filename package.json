@@ -45,6 +45,6 @@
     "typescript-transform-paths": "^3.4.7"
   },
   "dependencies": {
-    "multiformats": "^9.6.4"
+    "multiformats": "^13.0.0"
   }
 }

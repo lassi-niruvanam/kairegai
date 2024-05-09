@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       multiformats:
-        specifier: ^9.6.4
-        version: 9.9.0
+        specifier: ^13.0.0
+        version: 13.1.0
     devDependencies:
       '@constl/utils-tests':
         specifier: ^1.2.5
