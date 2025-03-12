@@ -46,5 +46,21 @@
   },
   "dependencies": {
     "multiformats": "^13.0.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@ipshipyard/node-datachannel",
+      "@localfirst/auth",
+      "@localfirst/crdx",
+      "@localfirst/crypto",
+      "@localfirst/shared",
+      "classic-level",
+      "core-js",
+      "electron",
+      "esbuild",
+      "iso-constants",
+      "msgpackr-extract",
+      "node-datachannel"
+    ]
   }
 }
