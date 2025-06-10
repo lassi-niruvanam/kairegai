@@ -10,7 +10,7 @@ importers:
     dependencies:
       multiformats:
         specifier: ^13.0.0
-        version: 13.3.6
+        version: 13.3.7
     devDependencies:
       '@constl/utils-tests':
         specifier: ^1.2.5
@@ -5776,8 +5776,8 @@ packages:
     resolution: {integrity: sha512-eajQ/ZH7qXZQR2AgtfpmSMizQzmyYVmCql7pdhldPuYQi4atACekbJaQplk6dWyIi10jCaFnd6pqvcEFXjbaJw==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
 
-  multiformats@13.3.6:
-    resolution: {integrity: sha512-yakbt9cPYj8d3vi/8o/XWm61MrOILo7fsTL0qxNx6zS0Nso6K5JqqS2WV7vK/KSuDBvrW3KfCwAdAgarAgOmww==}
+  multiformats@13.3.7:
+    resolution: {integrity: sha512-meL9DERHj+fFVWoOX9fXqfcYcSpUfSYJPcFvDPKrxitICbwAoWR+Ut4j5NO9zAT917HUHLQmqzQbAsGNHlDcxQ==}
 
   multimatch@5.0.0:
     resolution: {integrity: sha512-ypMKuglUrZUD99Tk2bUQ+xNQj43lPEfAeX2o9cTteAmShXy2VHDJpuwu1o0xqoKCt9jLVAvwyFKdLTPXKAfJyA==}
@@ -9031,7 +9031,7 @@ snapshots:
       it-length-prefixed: 9.1.1
       it-pipe: 3.0.1
       it-pushable: 3.2.3
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       protons-runtime: 5.5.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -9579,7 +9579,7 @@ snapshots:
       it-map: 3.1.2
       it-pipe: 3.0.1
       it-take: 3.0.7
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       p-defer: 4.0.1
       progress-events: 1.0.1
       protons-runtime: 5.5.0
@@ -9600,7 +9600,7 @@ snapshots:
       '@multiformats/multiaddr-to-uri': 11.0.0
       interface-blockstore: 5.3.1
       interface-store: 6.0.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       progress-events: 1.0.1
 
   '@helia/delegated-routing-v1-http-api-client@4.2.2':
@@ -9615,7 +9615,7 @@ snapshots:
       it-first: 3.0.7
       it-map: 3.1.2
       it-ndjson: 1.1.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       p-defer: 4.0.1
       p-queue: 8.1.0
       uint8arrays: 5.1.0
@@ -9627,7 +9627,7 @@ snapshots:
       interface-blockstore: 5.3.1
       interface-datastore: 8.3.1
       interface-store: 6.0.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       progress-events: 1.0.1
 
   '@helia/routers@3.0.0':
@@ -9640,7 +9640,7 @@ snapshots:
       ipns: 10.0.1
       it-first: 3.0.7
       it-map: 3.1.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       uint8arrays: 5.1.0
 
   '@helia/utils@1.2.1':
@@ -9664,7 +9664,7 @@ snapshots:
       it-foreach: 2.1.2
       it-merge: 3.0.7
       mortice: 3.0.6
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       p-defer: 4.0.1
       progress-events: 1.0.1
       uint8arrays: 5.1.0
@@ -9687,16 +9687,16 @@ snapshots:
   '@ipld/dag-cbor@9.2.2':
     dependencies:
       cborg: 4.2.8
-      multiformats: 13.3.6
+      multiformats: 13.3.7
 
   '@ipld/dag-json@10.2.3':
     dependencies:
       cborg: 4.2.8
-      multiformats: 13.3.6
+      multiformats: 13.3.7
 
   '@ipld/dag-pb@4.1.3':
     dependencies:
-      multiformats: 13.3.6
+      multiformats: 13.3.7
 
   '@ipshipyard/libp2p-auto-tls@1.0.0':
     dependencies:
@@ -9714,7 +9714,7 @@ snapshots:
       any-signal: 4.1.1
       delay: 6.0.0
       interface-datastore: 8.3.1
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       uint8arrays: 5.1.0
     transitivePeerDependencies:
       - supports-color
@@ -9826,7 +9826,7 @@ snapshots:
       '@multiformats/multiaddr': 12.4.0
       any-signal: 4.1.1
       it-protobuf-stream: 1.1.6
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       protons-runtime: 5.5.0
       uint8arraylist: 2.4.8
 
@@ -9852,7 +9852,7 @@ snapshots:
       any-signal: 4.1.1
       it-protobuf-stream: 1.1.6
       it-stream-types: 2.0.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       nanoid: 5.1.5
       progress-events: 1.0.1
       protons-runtime: 5.5.0
@@ -9873,7 +9873,7 @@ snapshots:
       '@libp2p/interface': 2.7.0
       '@noble/curves': 1.8.1
       '@noble/hashes': 1.7.1
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       protons-runtime: 5.5.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -9933,7 +9933,7 @@ snapshots:
       '@multiformats/multiaddr': 12.4.0
       it-pushable: 3.2.3
       it-stream-types: 2.0.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       progress-events: 1.0.1
       uint8arraylist: 2.4.8
 
@@ -9960,7 +9960,7 @@ snapshots:
       it-protobuf-stream: 1.1.6
       it-take: 3.0.7
       mortice: 3.0.6
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       p-defer: 4.0.1
       p-event: 6.0.1
       progress-events: 1.0.1
@@ -9978,7 +9978,7 @@ snapshots:
       asn1js: 3.0.5
       interface-datastore: 8.3.1
       merge-options: 3.0.4
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       sanitize-filename: 1.6.3
       uint8arrays: 5.1.0
 
@@ -9987,7 +9987,7 @@ snapshots:
       '@libp2p/interface': 2.7.0
       '@multiformats/multiaddr': 12.4.0
       interface-datastore: 8.3.1
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       weald: 1.0.4
 
   '@libp2p/mdns@11.0.31':
@@ -10029,13 +10029,13 @@ snapshots:
       '@libp2p/interface': 2.7.0
       '@libp2p/peer-id': 5.1.0
       '@libp2p/utils': 6.5.8
-      multiformats: 13.3.6
+      multiformats: 13.3.7
 
   '@libp2p/peer-id@5.1.0':
     dependencies:
       '@libp2p/crypto': 5.0.15
       '@libp2p/interface': 2.7.0
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       uint8arrays: 5.1.0
 
   '@libp2p/peer-record@8.0.24':
@@ -10045,7 +10045,7 @@ snapshots:
       '@libp2p/peer-id': 5.1.0
       '@libp2p/utils': 6.5.8
       '@multiformats/multiaddr': 12.4.0
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       protons-runtime: 5.5.0
       uint8-varint: 2.0.4
       uint8arraylist: 2.4.8
@@ -10061,7 +10061,7 @@ snapshots:
       interface-datastore: 8.3.1
       it-all: 3.0.7
       mortice: 3.0.6
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       protons-runtime: 5.5.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -10086,7 +10086,7 @@ snapshots:
       it-length-prefixed: 10.0.1
       it-pipe: 3.0.1
       it-pushable: 3.2.3
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       p-queue: 8.1.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -10182,7 +10182,7 @@ snapshots:
       it-protobuf-stream: 1.1.6
       it-pushable: 3.2.3
       it-stream-types: 2.0.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       p-defer: 4.0.1
       p-timeout: 6.1.4
       p-wait-for: 5.0.2
@@ -10234,7 +10234,7 @@ snapshots:
     dependencies:
       '@chainsafe/is-ip': 2.1.0
       '@multiformats/multiaddr': 12.4.0
-      multiformats: 13.3.6
+      multiformats: 13.3.7
 
   '@multiformats/multiaddr-to-uri@11.0.0':
     dependencies:
@@ -10245,7 +10245,7 @@ snapshots:
       '@chainsafe/is-ip': 2.1.0
       '@chainsafe/netmask': 2.0.0
       '@multiformats/dns': 1.0.6
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       uint8-varint: 2.0.4
       uint8arrays: 5.1.0
 
@@ -11378,7 +11378,7 @@ snapshots:
       esbuild: 0.25.4
       eslint: 9.28.0
       eslint-formatter-unix: 8.40.0
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.32.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.34.0(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0)
       eslint-plugin-jsdoc: 50.6.17(eslint@9.28.0)
       eslint-plugin-no-only-tests: 3.3.0
       execa: 9.5.3
@@ -11405,7 +11405,7 @@ snapshots:
       micromark-extension-gfm-table: 2.1.1
       micromark-extension-gfm-task-list-item: 2.1.0
       mocha: 11.6.0
-      neostandard: 0.12.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.34.0(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0)(typescript@5.8.3)
+      neostandard: 0.12.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.32.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0)(typescript@5.8.3)
       npm-package-json-lint: 8.0.0(typescript@5.8.3)
       nyc: 17.1.0
       p-map: 7.0.3
@@ -11751,7 +11751,7 @@ snapshots:
       it-filter: 3.1.2
       it-merge: 3.0.7
       it-pushable: 3.2.3
-      multiformats: 13.3.6
+      multiformats: 13.3.7
 
   blockstore-level@2.0.1:
     dependencies:
@@ -11759,7 +11759,7 @@ snapshots:
       interface-blockstore: 5.3.1
       interface-store: 6.0.2
       level: 8.0.1
-      multiformats: 13.3.6
+      multiformats: 13.3.7
 
   bn.js@4.12.1: {}
 
@@ -12981,7 +12981,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import-x@4.13.3(eslint@9.28.0)(typescript@5.8.3))(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.34.0(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0):
+  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import-x@4.13.3(eslint@9.28.0)(typescript@5.8.3))(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.32.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
       debug: 4.4.1(supports-color@8.1.1)
@@ -12992,7 +12992,7 @@ snapshots:
       tinyglobby: 0.2.14
       unrs-resolver: 1.7.2
     optionalDependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.32.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.34.0(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0)
       eslint-plugin-import-x: 4.13.3(eslint@9.28.0)(typescript@5.8.3)
     transitivePeerDependencies:
       - supports-color
@@ -13032,7 +13032,7 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.32.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0):
+  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.34.0(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.8
@@ -13055,7 +13055,7 @@ snapshots:
       string.prototype.trimend: 1.0.9
       tsconfig-paths: 3.15.0
     optionalDependencies:
-      '@typescript-eslint/parser': 8.32.1(eslint@9.28.0)(typescript@5.8.3)
+      '@typescript-eslint/parser': 8.34.0(eslint@9.28.0)(typescript@5.8.3)
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
@@ -13838,7 +13838,7 @@ snapshots:
       interface-datastore: 8.3.1
       ipns: 10.0.1
       libp2p: 2.8.1
-      multiformats: 13.3.6
+      multiformats: 13.3.7
     transitivePeerDependencies:
       - bufferutil
       - react-native
@@ -13993,7 +13993,7 @@ snapshots:
   interface-blockstore@5.3.1:
     dependencies:
       interface-store: 6.0.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
 
   interface-datastore@8.3.1:
     dependencies:
@@ -14026,7 +14026,7 @@ snapshots:
       '@libp2p/logger': 5.1.13
       cborg: 4.2.8
       interface-datastore: 8.3.1
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       protons-runtime: 5.5.0
       timestamp-nano: 1.0.1
       uint8arraylist: 2.4.8
@@ -14732,7 +14732,7 @@ snapshots:
       it-merge: 3.0.7
       it-parallel: 3.0.9
       merge-options: 3.0.4
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       p-defer: 4.0.1
       p-retry: 6.2.1
       progress-events: 1.0.1
@@ -15656,7 +15656,7 @@ snapshots:
 
   multiformats@12.1.3: {}
 
-  multiformats@13.3.6: {}
+  multiformats@13.3.7: {}
 
   multimatch@5.0.0:
     dependencies:
@@ -15692,12 +15692,12 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  neostandard@0.12.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.34.0(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0)(typescript@5.8.3):
+  neostandard@0.12.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.32.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0)(typescript@5.8.3):
     dependencies:
       '@humanwhocodes/gitignore-to-minimatch': 1.0.2
       '@stylistic/eslint-plugin': 2.11.0(eslint@9.28.0)(typescript@5.8.3)
       eslint: 9.28.0
-      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import-x@4.13.3(eslint@9.28.0)(typescript@5.8.3))(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.34.0(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0)
+      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import-x@4.13.3(eslint@9.28.0)(typescript@5.8.3))(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.32.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0)
       eslint-plugin-import-x: 4.13.3(eslint@9.28.0)(typescript@5.8.3)
       eslint-plugin-n: 17.18.0(eslint@9.28.0)
       eslint-plugin-promise: 7.2.1(eslint@9.28.0)
@@ -17721,7 +17721,7 @@ snapshots:
 
   uint8arrays@5.1.0:
     dependencies:
-      multiformats: 13.3.6
+      multiformats: 13.3.7
 
   unbox-primitive@1.1.0:
     dependencies:
