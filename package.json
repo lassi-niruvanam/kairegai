@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/lassi-niruvanam/kairegai#readme",
   "devDependencies": {
-    "@constl/utils-tests": "^1.2.5",
+    "@constl/utils-tests": "^2.0.0",
     "@eslint/js": "^10.0.0",
     "@types/mocha": "^10.0.6",
     "aegir": "^48.0.0",
