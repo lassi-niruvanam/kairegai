@@ -45,7 +45,7 @@
     "typescript-transform-paths": "^3.4.7"
   },
   "dependencies": {
-    "multiformats": "^13.0.0"
+    "multiformats": "^14.0.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
